@@ -38,7 +38,7 @@ const LoginPage=()=>{
 
 
     return(
-        <div className="h-full w-1/4  p-2 bg-gray-500 mx-auto mt-9 shadow-lg">
+        <div className="max-w-lg p-2 bg-gray-500 mx-auto mt-9 shadow-lg">
         <div className="bg-gray-300 "> 
             <div>
                 <h2 className="w-full text-lg font-bold bg-gray-800 p-2 text-center text-white">Please Login here</h2>

@@ -11,7 +11,7 @@ export const VITE_BACKEND_URL= import.meta.env.VITE_BACKEND_URL
 const App=()=>{
   return(
     <div>
-         <div>
+         <div className="container mx-auto p-2 h-full">
           <Routes>
             <Route index element={<HomePage/>}></Route>
             <Route path="/login" element={<LoginPage/>}></Route>
